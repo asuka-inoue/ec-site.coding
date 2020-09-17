@@ -6,6 +6,5 @@ $(document).ready(function(){
             dots: true,
             items: 1,
             autoplay: true
-        }
-       );
+        });
 });
