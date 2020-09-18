@@ -63,6 +63,9 @@ header #header_in {
   font-size: 0;
   padding: 0 1rem; }
 
+.slick-prev slick-arrow{
+  display: none;
+
 .owl-dot {
   float: left;
   height: 2px;
