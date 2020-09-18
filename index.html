@@ -356,7 +356,17 @@
               <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
               <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
               <script src="js/script.js"></script>
+            
               <script>
+                  // スライダー
+                    $('.slider').slick({
+                      autoplay: true,
+                      autoplaySpeed: 2000,
+                      fade: true,
+                      speed: 1000,
+                      cssEase: 'linear'
+                    });
+                  
                   $(function(){
                     $(document).ready(function(){
                 
