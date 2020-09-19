@@ -137,20 +137,21 @@ header{
 	      position: relative;
 	      text-indent: -9999px;
 	      &:before{
-		content: '☆';
+		content: '';
 		font-size: 20px;
 		text-indent: 0px;
 		position: absolute;
 		top: 0;
 		left: 0;
-	      }
-	    }
+	              }
 	    &.slick-active{
 	      button:before{
 		content: '';
-	      }
+	      
 	    }
           }
+	  }
+	}
 	}
 }
 
