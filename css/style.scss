@@ -117,41 +117,44 @@ header{
     font-size: 0;
     padding: 0 1rem;
 }
-  
-// button{
-//   margin: 0;
-//   padding: 0;
-//   background: none;
-//   border: none;
-//   border-radius: 0;
-//   outline: none;
-//   -webkit-appearance: none;
-//   -moz-appearance: none;
-//   appearance: none;
-// }
-.slide-dots{
-  text-align: center;
-  li{
-    display: inline-block;
-    margin: 0 15px;
-    button{
-      position: relative;
-      text-indent: -9999px;
-      &:before{
-        content: '☆';
-        font-size: 20px;
-        text-indent: 0px;
-        position: absolute;
-        top: 0;
-        left: 0;
-      }
-    }
-    &.slick-active{
-      button:before{
-        content: '★';
-      }
-    }
-  
+.slider{  
+	button{
+	  margin: 0;
+	  padding: 0;
+	  background: none;
+	  border: none;
+	  border-radius: 0;
+	  outline: none;
+	  -webkit-appearance: none;
+	  -moz-appearance: none;
+	  appearance: none;
+	}
+	.slide-dots{
+	  text-align: center;
+	  li{
+	    display: inline-block;
+	    margin: 0 15px;
+	    button{
+	      position: relative;
+	      text-indent: -9999px;
+	      &:before{
+		content: '☆';
+		font-size: 20px;
+		text-indent: 0px;
+		position: absolute;
+		top: 0;
+		left: 0;
+	      }
+	    }
+	    &.slick-active{
+	      button:before{
+		content: '★';
+	      }
+	    }
+          }
+	}
+}
+
 //  .owl-theme .slide-dots .slide-dot span {
 //     width: 27px;
 //     height: 2px;
