@@ -117,24 +117,23 @@ header{
     font-size: 0;
     padding: 0 1rem;
 }
-.slider{  
-	button{
-	  margin: 0;
-	  padding: 0;
-	  background: none;
-	  border: none;
-	  border-radius: 0;
-	  outline: none;
-	  -webkit-appearance: none;
-	  -moz-appearance: none;
-	  appearance: none;
-	}
+#slider{  
+	
 	.slide-dots{
 	  text-align: center;
 	  li{
 	    display: inline-block;
 	    margin: 0 15px;
 	    button{
+	      margin: 0;
+	      padding: 0;
+	      background: none;
+	      border: none;
+	      border-radius: 0;
+	      outline: none;
+	      -webkit-appearance: none;
+	      -moz-appearance: none;
+	      appearance: none;
 	      position: relative;
 	      text-indent: -9999px;
 	      &:before{
@@ -154,20 +153,6 @@ header{
           }
 	}
 }
-
-//  .owl-theme .slide-dots .slide-dot span {
-//     width: 27px;
-//     height: 2px;
-//     margin: 0 7px 0 0;
-//     background: #869791;
-//     display: block;
-//     -webkit-backface-visibility: visible;
-//     transition: opacity .2s ease;
-//     border-radius: 30px;
-// }
-//  .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
-//     background: #9d1a2d;
-// }
 
 .pc_sidebar{
       border: none;
