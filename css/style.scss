@@ -121,6 +121,7 @@ header{
 	
 	.slide-dots{
 	  text-align: center;
+	 ul{
 	  li{
 	    display: inline-block;
 	    margin: 0 15px;
@@ -147,7 +148,7 @@ header{
 	    &.slick-active{
 	      button:before{
 		content: '';
-	      
+		    }  
 	    }
           }
 	  }
