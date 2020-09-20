@@ -117,12 +117,13 @@ header{
     font-size: 0;
     padding: 0 1rem;
 }
-#slider{  
-	button#slick-slide-control00,slick-slide-control01,slick-slide-control02,slick-slide-control03,slick-slide-control04 {
+button#slick-slide-control00,slick-slide-control01,slick-slide-control02,slick-slide-control03,slick-slide-control04 {
 	    height: 2px;
 	    margin: 10px 0;
 	    padding: 0 10px;
          	}
+#slider{  
+	
 	.slick-dots li button:hover:before,
         .slick-dots li button:focus:before{
 	    opacity: 1;
