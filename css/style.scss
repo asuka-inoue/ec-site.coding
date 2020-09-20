@@ -117,12 +117,15 @@ header{
     font-size: 0;
     padding: 0 1rem;
 }
-button#slick-slide-control00,#slick-slide-control01,#slick-slide-control02,#slick-slide-control03,#slick-slide-control04 {
-	    height: 2px;
-	    margin: 10px 0;
-	    padding: 0 10px;
-         	}
+
 #slider{  
+	ul{
+	   .slick-dots li{
+		   height: 2px;
+	    margin: 10px 0;
+		   padding: 0 10px;}
+	}
+		
 	.slick-prev:before,
         .slick-next:before {
                 color: black;
