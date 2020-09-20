@@ -118,6 +118,12 @@ header{
     padding: 0 1rem;
 }
 #slider{  
+	button{
+		hight: 2px;
+	        width: 3px;
+	        padding: 0 20px;
+	        font-size: 0;
+	}
 	.slick-dots li button:hover:before,
         .slick-dots li button:focus:before{
 	    opacity: 1;
